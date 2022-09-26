@@ -1,23 +1,30 @@
 package OOps;
 
-public class Car extends Transport {
+public class Bus extends Transport{
 
 	@Override
 	int mileage() {
 		// TODO Auto-generated method stub
-		return 80;
+		return 50;
 	}
 
 	@Override
 	int capacity() {
 		// TODO Auto-generated method stub
-		return 8;
+		return 50;
 	}
 
 	@Override
 	String Model() {
 		// TODO Auto-generated method stub
-		return "X1";
+		return null;
+	}
+     int cost;
+	public int getCost() {
+		return cost;
 	}
 
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
 }
