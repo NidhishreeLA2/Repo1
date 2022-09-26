@@ -19,7 +19,7 @@ public class Bus extends Transport{
 		// TODO Auto-generated method stub
 		return null;
 	}
-     int cost;
+    int cost;
 	public int getCost() {
 		return cost;
 	}

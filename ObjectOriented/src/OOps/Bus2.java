@@ -1,17 +1,17 @@
 package OOps;
 
-public class Bike extends Transport{
-    int type;
+public class Bus2 extends Bus {
+
 	@Override
 	int mileage() {
 		// TODO Auto-generated method stub
-		return 60;
+		return 0;
 	}
 
 	@Override
 	int capacity() {
 		// TODO Auto-generated method stub
-		return 2;
+		return 0;
 	}
 
 	@Override
@@ -19,9 +19,5 @@ public class Bike extends Transport{
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	String Brakes() {
-		return null;
 
-}
 }
