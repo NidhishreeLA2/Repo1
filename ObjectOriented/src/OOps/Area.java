@@ -1,7 +1,7 @@
 package OOps;
 
 public class Area {
-	public void area() {
+	public void  area() {
 		
 	}
 
